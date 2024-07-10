@@ -196,11 +196,11 @@ export function Pastel() {
                       <div className="text-muted-foreground">Chemist</div>
                     </div>
                   </div>
-                  <blockquote className="text-muted-foreground">
+                  <div className="text-muted-foreground">
                     "Chemistron AI has been a game-changer for my research. The
                     molecule visualization and reaction prediction features
                     have saved me so much time and effort."
-                  </blockquote>
+                  </div>
                 </div>
               </div>
               <div className="flex flex-col justify-center space-y-4">
@@ -215,11 +215,11 @@ export function Pastel() {
                       <div className="text-muted-foreground">Chemistry Researcher</div>
                     </div>
                   </div>
-                  <blockquote className="text-muted-foreground">
+                  <div className="text-muted-foreground">
                     "I've been using Chemistron AI for the past year, and it's
                     completely transformed my workflow. The lab equipment
                     recommendations have been invaluable."
-                  </blockquote>
+                  </div>
                 </div>
               </div>
             </div>
