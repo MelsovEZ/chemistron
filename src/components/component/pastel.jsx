@@ -32,7 +32,7 @@ export function Pastel() {
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
           <BeakerIcon className="h-6 w-6" />
-          <span className="sr-only">AlchemyAI</span>
+          <span className="sr-only">Chemistron AI</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link
@@ -70,7 +70,7 @@ export function Pastel() {
                 <div className="space-y-2">
                   <h1
                     className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                    Unlock the Power of Chemistry with AlchemyAI
+                    Unlock the Power of Chemistry with Chemistron AI
                   </h1>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
                     Revolutionize your chemistry research and experiments with our cutting-edge AI-powered chemistry
@@ -178,7 +178,7 @@ export function Pastel() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">What Our Users Say</h2>
                 <p
                   className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Hear from real users about how AlchemyAI has transformed their chemistry research and experiments.
+                  Hear from real users about how Chemistron AI has transformed their chemistry research and experiments.
                 </p>
               </div>
             </div>
@@ -197,7 +197,7 @@ export function Pastel() {
                     </div>
                   </div>
                   <blockquote className="text-muted-foreground">
-                    "AlchemyAI has been a game-changer for my research. The
+                    "Chemistron AI has been a game-changer for my research. The
                     molecule visualization and reaction prediction features
                     have saved me so much time and effort."
                   </blockquote>
@@ -216,7 +216,7 @@ export function Pastel() {
                     </div>
                   </div>
                   <blockquote className="text-muted-foreground">
-                    "I've been using AlchemyAI for the past year, and it's
+                    "I've been using Chemistron AI for the past year, and it's
                     completely transformed my workflow. The lab equipment
                     recommendations have been invaluable."
                   </blockquote>
@@ -236,7 +236,7 @@ export function Pastel() {
                 </h2>
                 <p
                   className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Choose the plan that best fits your needs and budget. Get started with AlchemyAI today and revolutionize
+                  Choose the plan that best fits your needs and budget. Get started with Chemistron AI today and revolutionize
                   your chemistry workflow.
                 </p>
               </div>
@@ -338,7 +338,7 @@ export function Pastel() {
           <div className="container">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="text-sm text-white">
-                &copy; 2022 AlchemyAI. All rights reserved.
+                &copy; 2022 Chemistron AI. All rights reserved.
               </div>
               <div className="flex gap-4 mt-4 md:mt-0">
                 <Link
