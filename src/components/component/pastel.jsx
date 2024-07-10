@@ -87,7 +87,7 @@ export function Pastel() {
                   </Link>
                 </div>
               </div>
-              <img
+              <Image
                 src="https://resources.finalsite.net/images/t_image_size_4/v1649607622/blytheducationcom/cgcigrduduv4g3rwdlfj/interior-of-chemistry-classroom-2021-08-26-19-52-10-utc.jpg"
                 width="550"
                 height="550"
@@ -108,15 +108,15 @@ export function Pastel() {
                 <p
                   className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Our AI-powered chemistry helper provides cutting-edge tools to streamline your research and
-                  experiments. From visualizing molecules to predicting reactions and recommending lab equipment, we've
+                  experiments. From visualizing molecules to predicting reactions and recommending lab equipment, we&apos;ve
                   got you covered.
                 </p>
               </div>
             </div>
             <div
               className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
-              <img
-                src="https://pngimg.com/d/molecule_PNG52.png"
+              <Image
+                src="https://pngImage.com/d/molecule_PNG52.png"
                 width="550"
                 height="310"
                 alt="Molecule Visualization"
@@ -142,8 +142,8 @@ export function Pastel() {
                   </p>
                 </div>
               </div>
-              <img
-                src="https://pngimg.com/d/molecule_PNG20.png"
+              <Image
+                src="https://pngImage.com/d/molecule_PNG20.png"
                 width="550"
                 height="310"
                 alt="Reaction Prediction"
@@ -151,8 +151,8 @@ export function Pastel() {
             </div>
             <div
               className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
-              <img
-                src="https://www.pngitem.com/pimgs/m/37-374129_transparent-science-lab-png-chemistry-lab-equipment-png.png"
+              <Image
+                src="https://www.pngitem.com/pImages/m/37-374129_transparent-science-lab-png-chemistry-lab-equipment-png.png"
                 width="550"
                 height="310"
                 alt="Lab Equipment Recommendations"
@@ -197,9 +197,9 @@ export function Pastel() {
                     </div>
                   </div>
                   <div className="text-muted-foreground">
-                    "Chemistron AI has been a game-changer for my research. The
+                    &quot;Chemistron AI has been a game-changer for my research. The
                     molecule visualization and reaction prediction features
-                    have saved me so much time and effort."
+                    have saved me so much time and effort.&quot;
                   </div>
                 </div>
               </div>
@@ -216,9 +216,9 @@ export function Pastel() {
                     </div>
                   </div>
                   <div className="text-muted-foreground">
-                    "I've been using Chemistron AI for the past year, and it's
+                  &quot;I&apos;ve been using Chemistron AI for the past year, and it&apos;s
                     completely transformed my workflow. The lab equipment
-                    recommendations have been invaluable."
+                    recommendations have been invaluable.&quot;
                   </div>
                 </div>
               </div>
