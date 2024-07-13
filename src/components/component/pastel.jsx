@@ -118,7 +118,7 @@ export function Pastel() {
             <div
               className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
               <Image
-                src="/Visualize.webp"
+                src="Visualize.webp"
                 width={550}
                 height={310}
                 alt="Molecule Visualization"
@@ -146,7 +146,7 @@ export function Pastel() {
                 </div>
               </div>
               <Image
-                src="/Prediction.webp"
+                src="Prediction.webp"
                 width={550}
                 height={310}
                 alt="Reaction Prediction"
@@ -156,7 +156,7 @@ export function Pastel() {
             <div
               className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
               <Image
-                src="/Equipment.webp"
+                src="Equipment.webp"
                 width={550}
                 height={310}
                 alt="Lab Equipment Recommendations"
