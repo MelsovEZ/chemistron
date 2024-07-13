@@ -89,7 +89,7 @@ export function Pastel() {
                 </div>
               </div>
               <Image
-                src="/Banner.webp"
+                src="Banner.webp"
                 width={550}
                 height={550}
                 alt="Hero"
