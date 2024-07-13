@@ -37,32 +37,32 @@ export function Pastel() {
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link
-            href="#"
-            className="text-sm font-medium hover:underline underline-offset-4"
-            prefetch={false}>
-            Features
-          </Link>
-          <Link
-            href="#"
-            className="text-sm font-medium hover:underline underline-offset-4"
-            prefetch={false}>
-            Pricing
-          </Link>
-          <Link
-            href="#"
+            href="#about"
             className="text-sm font-medium hover:underline underline-offset-4"
             prefetch={false}>
             About
           </Link>
           <Link
-            href="#"
+            href="#features"
+            className="text-sm font-medium hover:underline underline-offset-4"
+            prefetch={false}>
+            Features
+          </Link>
+          <Link
+            href="#pricing"
+            className="text-sm font-medium hover:underline underline-offset-4"
+            prefetch={false}>
+            Pricing
+          </Link>
+          <Link
+            href="#contact"
             className="text-sm font-medium hover:underline underline-offset-4"
             prefetch={false}>
             Contact
           </Link>
         </nav>
       </header>
-      <main className="flex-1">
+      <main id="about" className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div
@@ -89,16 +89,16 @@ export function Pastel() {
                 </div>
               </div>
               <Image
-                src="https://resources.finalsite.net/images/t_image_size_4/v1649607622/blytheducationcom/cgcigrduduv4g3rwdlfj/interior-of-chemistry-classroom-2021-08-26-19-52-10-utc.jpg"
+                src="/Banner.webp"
                 width={550}
                 height={550}
                 alt="Hero"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
+                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover sm:w-full lg:order-last"
               />
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
           <div className="container px-4 md:px-6">
             <div
               className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -118,7 +118,7 @@ export function Pastel() {
             <div
               className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
               <Image
-                src="https://pngimg.com/d/molecule_PNG52.png"
+                src="/Visualize.webp"
                 width={550}
                 height={310}
                 alt="Molecule Visualization"
@@ -146,7 +146,7 @@ export function Pastel() {
                 </div>
               </div>
               <Image
-                src="https://pngimg.com/d/molecule_PNG20.png"
+                src="/Prediction.webp"
                 width={550}
                 height={310}
                 alt="Reaction Prediction"
@@ -156,7 +156,7 @@ export function Pastel() {
             <div
               className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
               <Image
-                src="https://www.pngitem.com/pimgs/m/37-374129_transparent-science-lab-png-chemistry-lab-equipment-png.png"
+                src="/Equipment.webp"
                 width={550}
                 height={310}
                 alt="Lab Equipment Recommendations"
@@ -194,11 +194,11 @@ export function Pastel() {
                   <div className="flex items-center gap-2">
                     <Avatar className="w-10 h-10">
                       <AvatarImage src="/placeholder-user.jpg" />
-                      <AvatarFallback>JD</AvatarFallback>
+                      <AvatarFallback>AA</AvatarFallback>
                     </Avatar>
                     <div>
                       <div className="font-bold">Azatkadyr Askar</div>
-                      <div className="text-muted-foreground">Chemist</div>
+                      <div className="text-muted-foreground">Chemistry Teacher</div>
                     </div>
                   </div>
                   <div className="text-muted-foreground">
@@ -213,7 +213,7 @@ export function Pastel() {
                   <div className="flex items-center gap-2">
                     <Avatar className="w-10 h-10">
                       <AvatarImage src="/placeholder-user.jpg" />
-                      <AvatarFallback>JD</AvatarFallback>
+                      <AvatarFallback>AR</AvatarFallback>
                     </Avatar>
                     <div>
                       <div className="font-bold">Assanali Rakhimov</div>
@@ -230,7 +230,7 @@ export function Pastel() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <section id="pricing" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
           <div className="container px-4 md:px-6">
             <div
               className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -339,11 +339,30 @@ export function Pastel() {
             </div>
           </div>
         </section>
+        <section id="contact" className="w-full py-12 md:py-24 lg:py-32">
+          <div className="container px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Contact Us</div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Get in Touch</h2>
+                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Have any questions or need support? Reach out to our team and we'll be happy to assist you.
+                </p>
+                <p className="text-muted-foreground">
+                  Email: support@chemistron.ai
+                </p>
+                <p className="text-muted-foreground">
+                  Phone: +1 (123) 456-7890
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
         <footer className="px-4 lg:px-6 py-8 bg-primary-foreground">
           <div className="container">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="text-sm text-white">
-                &copy; 2022 Chemistron AI. All rights reserved.
+                &copy; 2024 Chemistron AI. All rights reserved.
               </div>
               <div className="flex gap-4 mt-4 md:mt-0">
                 <Link
