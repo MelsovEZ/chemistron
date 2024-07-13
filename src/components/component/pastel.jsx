@@ -346,13 +346,13 @@ export function Pastel() {
                 <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Contact Us</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Get in Touch</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Have any questions or need support? Reach out to our team and we'll be happy to assist you.
+                  Have any questions or need support? Reach out to our team and we&apos;ll be happy to assist you.
                 </p>
                 <p className="text-muted-foreground">
-                  Email: support@chemistron.ai
+                  Email: ernurmelsov@gmail.com
                 </p>
                 <p className="text-muted-foreground">
-                  Phone: +1 (123) 456-7890
+                  Phone: +7 (708) 108-6578
                 </p>
               </div>
             </div>
